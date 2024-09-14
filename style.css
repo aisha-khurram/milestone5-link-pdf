@@ -1,0 +1,85 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', Geneva, sans-serif;
+    margin:20px;
+    padding:0;
+    background-color: bisque;
+}
+h1 {
+    text-align: center;
+    color: rgb(224, 144, 32);
+
+}
+form{
+    max-width: 600px;
+    margin:auto;
+    background-color: bisque;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(224,144,32,1);
+    padding:20px;
+}
+fieldset{
+    background-color: rgba(247, 246, 242, 0.482);
+    border:2px solid rgb(230, 170, 37);
+    border-radius: 8px;
+    padding:20px;
+    margin-bottom: 20px;
+
+}
+legend{
+    font-weight: bold;
+    text-align: left;
+
+}
+label{
+    display:block;
+    margin-top: 10px;
+
+}
+
+.profilePicture{
+    display:block;
+    margin:0 auto;
+    border:2px rgb(224, 144, 32);
+    box-shadow:0 4px 8px rgba(244,144,32,1);
+    border-radius:500%;
+    width:150px;
+    height:150px;
+    object-fit:cover;
+}
+input,textarea{
+    width:calc(1000%-1px);
+    padding:8px;
+    margin-top: 4px;
+    border:1px rgb(224, 144, 32);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button{
+    display:block;
+    width:100%;
+    padding:10px;
+    background-color: rgba(122, 93, 49, 0.726);
+    color:black;
+    border:none;
+    border-radius: 4px;
+    cursor:pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Lucida Sans',  'Lucida Grande', Verdana, sans-serif;
+}
+button:hover{
+    background-color: brown;
+
+}
+#resumeOutput{
+    max-width:600px;
+    margin:auto;
+    padding:20px;
+    border:2px solid  rgb(230, 170, 37);
+    border-radius:8px;
+    background-color:bisque;
+    box-shadow:0 4px 8px rgba(224,144,32,1);
+}
+#resumeOutput h2{
+    color:rgb(224, 144, 32);
+}
